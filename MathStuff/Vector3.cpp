@@ -6,6 +6,7 @@
 #include <stdexcept>
 #include <cmath>
 #include <iostream>
+#include <iomanip>
 
 Vector3::Vector3() {
     _x = _y = _z = 0;
@@ -122,6 +123,14 @@ double Vector3::magnitude() const {
 }
 
 void Vector3::print() const {
-    std::cout << x << ", " << y << ", " << z << std::endl;
+    std::cout << std::fixed << std::setprecision(10) << x << ", " << y << ", " << z << std::endl;
+}
+
+Vector3 Vector3::multiplyElementWise(const Vector3 &other) const {
+    return Vector3(x * other.x, y * other.y, z * other.z);
+}
+
+bool Vector3::lessThanElementWise(const Vector3 &other) const {
+    return x < other.x && y < other.y && z < other.z;
 }
 

@@ -43,19 +43,19 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion 2021.2.2\bin\cmake\win\bin\cmake.exe"
+CMAKE_COMMAND = "C:\Program Files (x86)\JetBrains\CLion 2021.2.2\bin\cmake\win\bin\cmake.exe"
 
 # The command to remove a file.
-RM = "C:\Program Files\JetBrains\CLion 2021.2.2\bin\cmake\win\bin\cmake.exe" -E rm -f
+RM = "C:\Program Files (x86)\JetBrains\CLion 2021.2.2\bin\cmake\win\bin\cmake.exe" -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\Collin\CLionProjects\IMUTracking2
+CMAKE_SOURCE_DIR = C:\Users\colli\CLionProjects\IMUTracking2
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\Collin\CLionProjects\IMUTracking2\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\colli\CLionProjects\IMUTracking2\cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/IMUTracking2.dir/depend.make
@@ -67,68 +67,159 @@ include CMakeFiles/IMUTracking2.dir/flags.make
 
 CMakeFiles/IMUTracking2.dir/main.cpp.obj: CMakeFiles/IMUTracking2.dir/flags.make
 CMakeFiles/IMUTracking2.dir/main.cpp.obj: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Collin\CLionProjects\IMUTracking2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/IMUTracking2.dir/main.cpp.obj"
-	C:\ProgramData\chocolatey\lib\mingw\tools\install\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\IMUTracking2.dir\main.cpp.obj -c C:\Users\Collin\CLionProjects\IMUTracking2\main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\colli\CLionProjects\IMUTracking2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/IMUTracking2.dir/main.cpp.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\IMUTracking2.dir\main.cpp.obj -c C:\Users\colli\CLionProjects\IMUTracking2\main.cpp
 
 CMakeFiles/IMUTracking2.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/IMUTracking2.dir/main.cpp.i"
-	C:\ProgramData\chocolatey\lib\mingw\tools\install\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Collin\CLionProjects\IMUTracking2\main.cpp > CMakeFiles\IMUTracking2.dir\main.cpp.i
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\colli\CLionProjects\IMUTracking2\main.cpp > CMakeFiles\IMUTracking2.dir\main.cpp.i
 
 CMakeFiles/IMUTracking2.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/IMUTracking2.dir/main.cpp.s"
-	C:\ProgramData\chocolatey\lib\mingw\tools\install\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Collin\CLionProjects\IMUTracking2\main.cpp -o CMakeFiles\IMUTracking2.dir\main.cpp.s
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\colli\CLionProjects\IMUTracking2\main.cpp -o CMakeFiles\IMUTracking2.dir\main.cpp.s
 
 CMakeFiles/IMUTracking2.dir/MathStuff/Vector3.cpp.obj: CMakeFiles/IMUTracking2.dir/flags.make
 CMakeFiles/IMUTracking2.dir/MathStuff/Vector3.cpp.obj: ../MathStuff/Vector3.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Collin\CLionProjects\IMUTracking2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/IMUTracking2.dir/MathStuff/Vector3.cpp.obj"
-	C:\ProgramData\chocolatey\lib\mingw\tools\install\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\IMUTracking2.dir\MathStuff\Vector3.cpp.obj -c C:\Users\Collin\CLionProjects\IMUTracking2\MathStuff\Vector3.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\colli\CLionProjects\IMUTracking2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/IMUTracking2.dir/MathStuff/Vector3.cpp.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\IMUTracking2.dir\MathStuff\Vector3.cpp.obj -c C:\Users\colli\CLionProjects\IMUTracking2\MathStuff\Vector3.cpp
 
 CMakeFiles/IMUTracking2.dir/MathStuff/Vector3.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/IMUTracking2.dir/MathStuff/Vector3.cpp.i"
-	C:\ProgramData\chocolatey\lib\mingw\tools\install\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Collin\CLionProjects\IMUTracking2\MathStuff\Vector3.cpp > CMakeFiles\IMUTracking2.dir\MathStuff\Vector3.cpp.i
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\colli\CLionProjects\IMUTracking2\MathStuff\Vector3.cpp > CMakeFiles\IMUTracking2.dir\MathStuff\Vector3.cpp.i
 
 CMakeFiles/IMUTracking2.dir/MathStuff/Vector3.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/IMUTracking2.dir/MathStuff/Vector3.cpp.s"
-	C:\ProgramData\chocolatey\lib\mingw\tools\install\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Collin\CLionProjects\IMUTracking2\MathStuff\Vector3.cpp -o CMakeFiles\IMUTracking2.dir\MathStuff\Vector3.cpp.s
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\colli\CLionProjects\IMUTracking2\MathStuff\Vector3.cpp -o CMakeFiles\IMUTracking2.dir\MathStuff\Vector3.cpp.s
 
 CMakeFiles/IMUTracking2.dir/MathStuff/Quaternion.cpp.obj: CMakeFiles/IMUTracking2.dir/flags.make
 CMakeFiles/IMUTracking2.dir/MathStuff/Quaternion.cpp.obj: ../MathStuff/Quaternion.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Collin\CLionProjects\IMUTracking2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/IMUTracking2.dir/MathStuff/Quaternion.cpp.obj"
-	C:\ProgramData\chocolatey\lib\mingw\tools\install\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\IMUTracking2.dir\MathStuff\Quaternion.cpp.obj -c C:\Users\Collin\CLionProjects\IMUTracking2\MathStuff\Quaternion.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\colli\CLionProjects\IMUTracking2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/IMUTracking2.dir/MathStuff/Quaternion.cpp.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\IMUTracking2.dir\MathStuff\Quaternion.cpp.obj -c C:\Users\colli\CLionProjects\IMUTracking2\MathStuff\Quaternion.cpp
 
 CMakeFiles/IMUTracking2.dir/MathStuff/Quaternion.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/IMUTracking2.dir/MathStuff/Quaternion.cpp.i"
-	C:\ProgramData\chocolatey\lib\mingw\tools\install\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Collin\CLionProjects\IMUTracking2\MathStuff\Quaternion.cpp > CMakeFiles\IMUTracking2.dir\MathStuff\Quaternion.cpp.i
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\colli\CLionProjects\IMUTracking2\MathStuff\Quaternion.cpp > CMakeFiles\IMUTracking2.dir\MathStuff\Quaternion.cpp.i
 
 CMakeFiles/IMUTracking2.dir/MathStuff/Quaternion.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/IMUTracking2.dir/MathStuff/Quaternion.cpp.s"
-	C:\ProgramData\chocolatey\lib\mingw\tools\install\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Collin\CLionProjects\IMUTracking2\MathStuff\Quaternion.cpp -o CMakeFiles\IMUTracking2.dir\MathStuff\Quaternion.cpp.s
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\colli\CLionProjects\IMUTracking2\MathStuff\Quaternion.cpp -o CMakeFiles\IMUTracking2.dir\MathStuff\Quaternion.cpp.s
 
 CMakeFiles/IMUTracking2.dir/MathStuff/Matrix.cpp.obj: CMakeFiles/IMUTracking2.dir/flags.make
 CMakeFiles/IMUTracking2.dir/MathStuff/Matrix.cpp.obj: ../MathStuff/Matrix.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Collin\CLionProjects\IMUTracking2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/IMUTracking2.dir/MathStuff/Matrix.cpp.obj"
-	C:\ProgramData\chocolatey\lib\mingw\tools\install\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\IMUTracking2.dir\MathStuff\Matrix.cpp.obj -c C:\Users\Collin\CLionProjects\IMUTracking2\MathStuff\Matrix.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\colli\CLionProjects\IMUTracking2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/IMUTracking2.dir/MathStuff/Matrix.cpp.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\IMUTracking2.dir\MathStuff\Matrix.cpp.obj -c C:\Users\colli\CLionProjects\IMUTracking2\MathStuff\Matrix.cpp
 
 CMakeFiles/IMUTracking2.dir/MathStuff/Matrix.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/IMUTracking2.dir/MathStuff/Matrix.cpp.i"
-	C:\ProgramData\chocolatey\lib\mingw\tools\install\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Collin\CLionProjects\IMUTracking2\MathStuff\Matrix.cpp > CMakeFiles\IMUTracking2.dir\MathStuff\Matrix.cpp.i
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\colli\CLionProjects\IMUTracking2\MathStuff\Matrix.cpp > CMakeFiles\IMUTracking2.dir\MathStuff\Matrix.cpp.i
 
 CMakeFiles/IMUTracking2.dir/MathStuff/Matrix.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/IMUTracking2.dir/MathStuff/Matrix.cpp.s"
-	C:\ProgramData\chocolatey\lib\mingw\tools\install\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Collin\CLionProjects\IMUTracking2\MathStuff\Matrix.cpp -o CMakeFiles\IMUTracking2.dir\MathStuff\Matrix.cpp.s
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\colli\CLionProjects\IMUTracking2\MathStuff\Matrix.cpp -o CMakeFiles\IMUTracking2.dir\MathStuff\Matrix.cpp.s
 
-CMakeFiles/IMUTracking2.dir/Sensors/MagnetometerProcessor.cpp.obj: CMakeFiles/IMUTracking2.dir/flags.make
-CMakeFiles/IMUTracking2.dir/Sensors/MagnetometerProcessor.cpp.obj: ../Sensors/MagnetometerProcessor.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Collin\CLionProjects\IMUTracking2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/IMUTracking2.dir/Sensors/MagnetometerProcessor.cpp.obj"
-	C:\ProgramData\chocolatey\lib\mingw\tools\install\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\IMUTracking2.dir\Sensors\MagnetometerProcessor.cpp.obj -c C:\Users\Collin\CLionProjects\IMUTracking2\Sensors\MagnetometerProcessor.cpp
+CMakeFiles/IMUTracking2.dir/DataLoading/CSVLoader.cpp.obj: CMakeFiles/IMUTracking2.dir/flags.make
+CMakeFiles/IMUTracking2.dir/DataLoading/CSVLoader.cpp.obj: ../DataLoading/CSVLoader.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\colli\CLionProjects\IMUTracking2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/IMUTracking2.dir/DataLoading/CSVLoader.cpp.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\IMUTracking2.dir\DataLoading\CSVLoader.cpp.obj -c C:\Users\colli\CLionProjects\IMUTracking2\DataLoading\CSVLoader.cpp
 
-CMakeFiles/IMUTracking2.dir/Sensors/MagnetometerProcessor.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/IMUTracking2.dir/Sensors/MagnetometerProcessor.cpp.i"
-	C:\ProgramData\chocolatey\lib\mingw\tools\install\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Collin\CLionProjects\IMUTracking2\Sensors\MagnetometerProcessor.cpp > CMakeFiles\IMUTracking2.dir\Sensors\MagnetometerProcessor.cpp.i
+CMakeFiles/IMUTracking2.dir/DataLoading/CSVLoader.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/IMUTracking2.dir/DataLoading/CSVLoader.cpp.i"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\colli\CLionProjects\IMUTracking2\DataLoading\CSVLoader.cpp > CMakeFiles\IMUTracking2.dir\DataLoading\CSVLoader.cpp.i
 
-CMakeFiles/IMUTracking2.dir/Sensors/MagnetometerProcessor.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/IMUTracking2.dir/Sensors/MagnetometerProcessor.cpp.s"
-	C:\ProgramData\chocolatey\lib\mingw\tools\install\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Collin\CLionProjects\IMUTracking2\Sensors\MagnetometerProcessor.cpp -o CMakeFiles\IMUTracking2.dir\Sensors\MagnetometerProcessor.cpp.s
+CMakeFiles/IMUTracking2.dir/DataLoading/CSVLoader.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/IMUTracking2.dir/DataLoading/CSVLoader.cpp.s"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\colli\CLionProjects\IMUTracking2\DataLoading\CSVLoader.cpp -o CMakeFiles\IMUTracking2.dir\DataLoading\CSVLoader.cpp.s
+
+CMakeFiles/IMUTracking2.dir/DataLoading/DataLoader.cpp.obj: CMakeFiles/IMUTracking2.dir/flags.make
+CMakeFiles/IMUTracking2.dir/DataLoading/DataLoader.cpp.obj: ../DataLoading/DataLoader.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\colli\CLionProjects\IMUTracking2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/IMUTracking2.dir/DataLoading/DataLoader.cpp.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\IMUTracking2.dir\DataLoading\DataLoader.cpp.obj -c C:\Users\colli\CLionProjects\IMUTracking2\DataLoading\DataLoader.cpp
+
+CMakeFiles/IMUTracking2.dir/DataLoading/DataLoader.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/IMUTracking2.dir/DataLoading/DataLoader.cpp.i"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\colli\CLionProjects\IMUTracking2\DataLoading\DataLoader.cpp > CMakeFiles\IMUTracking2.dir\DataLoading\DataLoader.cpp.i
+
+CMakeFiles/IMUTracking2.dir/DataLoading/DataLoader.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/IMUTracking2.dir/DataLoading/DataLoader.cpp.s"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\colli\CLionProjects\IMUTracking2\DataLoading\DataLoader.cpp -o CMakeFiles\IMUTracking2.dir\DataLoading\DataLoader.cpp.s
+
+CMakeFiles/IMUTracking2.dir/Sensors/Magnetometer/Magnetometer.cpp.obj: CMakeFiles/IMUTracking2.dir/flags.make
+CMakeFiles/IMUTracking2.dir/Sensors/Magnetometer/Magnetometer.cpp.obj: ../Sensors/Magnetometer/Magnetometer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\colli\CLionProjects\IMUTracking2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/IMUTracking2.dir/Sensors/Magnetometer/Magnetometer.cpp.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\IMUTracking2.dir\Sensors\Magnetometer\Magnetometer.cpp.obj -c C:\Users\colli\CLionProjects\IMUTracking2\Sensors\Magnetometer\Magnetometer.cpp
+
+CMakeFiles/IMUTracking2.dir/Sensors/Magnetometer/Magnetometer.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/IMUTracking2.dir/Sensors/Magnetometer/Magnetometer.cpp.i"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\colli\CLionProjects\IMUTracking2\Sensors\Magnetometer\Magnetometer.cpp > CMakeFiles\IMUTracking2.dir\Sensors\Magnetometer\Magnetometer.cpp.i
+
+CMakeFiles/IMUTracking2.dir/Sensors/Magnetometer/Magnetometer.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/IMUTracking2.dir/Sensors/Magnetometer/Magnetometer.cpp.s"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\colli\CLionProjects\IMUTracking2\Sensors\Magnetometer\Magnetometer.cpp -o CMakeFiles\IMUTracking2.dir\Sensors\Magnetometer\Magnetometer.cpp.s
+
+CMakeFiles/IMUTracking2.dir/Sensors/Magnetometer/SimulatedMagnetometer.cpp.obj: CMakeFiles/IMUTracking2.dir/flags.make
+CMakeFiles/IMUTracking2.dir/Sensors/Magnetometer/SimulatedMagnetometer.cpp.obj: ../Sensors/Magnetometer/SimulatedMagnetometer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\colli\CLionProjects\IMUTracking2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/IMUTracking2.dir/Sensors/Magnetometer/SimulatedMagnetometer.cpp.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\IMUTracking2.dir\Sensors\Magnetometer\SimulatedMagnetometer.cpp.obj -c C:\Users\colli\CLionProjects\IMUTracking2\Sensors\Magnetometer\SimulatedMagnetometer.cpp
+
+CMakeFiles/IMUTracking2.dir/Sensors/Magnetometer/SimulatedMagnetometer.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/IMUTracking2.dir/Sensors/Magnetometer/SimulatedMagnetometer.cpp.i"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\colli\CLionProjects\IMUTracking2\Sensors\Magnetometer\SimulatedMagnetometer.cpp > CMakeFiles\IMUTracking2.dir\Sensors\Magnetometer\SimulatedMagnetometer.cpp.i
+
+CMakeFiles/IMUTracking2.dir/Sensors/Magnetometer/SimulatedMagnetometer.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/IMUTracking2.dir/Sensors/Magnetometer/SimulatedMagnetometer.cpp.s"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\colli\CLionProjects\IMUTracking2\Sensors\Magnetometer\SimulatedMagnetometer.cpp -o CMakeFiles\IMUTracking2.dir\Sensors\Magnetometer\SimulatedMagnetometer.cpp.s
+
+CMakeFiles/IMUTracking2.dir/Sensors/Accelerometer/Accelerometer.cpp.obj: CMakeFiles/IMUTracking2.dir/flags.make
+CMakeFiles/IMUTracking2.dir/Sensors/Accelerometer/Accelerometer.cpp.obj: ../Sensors/Accelerometer/Accelerometer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\colli\CLionProjects\IMUTracking2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/IMUTracking2.dir/Sensors/Accelerometer/Accelerometer.cpp.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\IMUTracking2.dir\Sensors\Accelerometer\Accelerometer.cpp.obj -c C:\Users\colli\CLionProjects\IMUTracking2\Sensors\Accelerometer\Accelerometer.cpp
+
+CMakeFiles/IMUTracking2.dir/Sensors/Accelerometer/Accelerometer.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/IMUTracking2.dir/Sensors/Accelerometer/Accelerometer.cpp.i"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\colli\CLionProjects\IMUTracking2\Sensors\Accelerometer\Accelerometer.cpp > CMakeFiles\IMUTracking2.dir\Sensors\Accelerometer\Accelerometer.cpp.i
+
+CMakeFiles/IMUTracking2.dir/Sensors/Accelerometer/Accelerometer.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/IMUTracking2.dir/Sensors/Accelerometer/Accelerometer.cpp.s"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\colli\CLionProjects\IMUTracking2\Sensors\Accelerometer\Accelerometer.cpp -o CMakeFiles\IMUTracking2.dir\Sensors\Accelerometer\Accelerometer.cpp.s
+
+CMakeFiles/IMUTracking2.dir/Sensors/Accelerometer/SimulatedAccelerometer.cpp.obj: CMakeFiles/IMUTracking2.dir/flags.make
+CMakeFiles/IMUTracking2.dir/Sensors/Accelerometer/SimulatedAccelerometer.cpp.obj: ../Sensors/Accelerometer/SimulatedAccelerometer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\colli\CLionProjects\IMUTracking2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/IMUTracking2.dir/Sensors/Accelerometer/SimulatedAccelerometer.cpp.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\IMUTracking2.dir\Sensors\Accelerometer\SimulatedAccelerometer.cpp.obj -c C:\Users\colli\CLionProjects\IMUTracking2\Sensors\Accelerometer\SimulatedAccelerometer.cpp
+
+CMakeFiles/IMUTracking2.dir/Sensors/Accelerometer/SimulatedAccelerometer.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/IMUTracking2.dir/Sensors/Accelerometer/SimulatedAccelerometer.cpp.i"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\colli\CLionProjects\IMUTracking2\Sensors\Accelerometer\SimulatedAccelerometer.cpp > CMakeFiles\IMUTracking2.dir\Sensors\Accelerometer\SimulatedAccelerometer.cpp.i
+
+CMakeFiles/IMUTracking2.dir/Sensors/Accelerometer/SimulatedAccelerometer.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/IMUTracking2.dir/Sensors/Accelerometer/SimulatedAccelerometer.cpp.s"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\colli\CLionProjects\IMUTracking2\Sensors\Accelerometer\SimulatedAccelerometer.cpp -o CMakeFiles\IMUTracking2.dir\Sensors\Accelerometer\SimulatedAccelerometer.cpp.s
+
+CMakeFiles/IMUTracking2.dir/Sensors/Gyroscope/Gyroscope.cpp.obj: CMakeFiles/IMUTracking2.dir/flags.make
+CMakeFiles/IMUTracking2.dir/Sensors/Gyroscope/Gyroscope.cpp.obj: ../Sensors/Gyroscope/Gyroscope.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\colli\CLionProjects\IMUTracking2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/IMUTracking2.dir/Sensors/Gyroscope/Gyroscope.cpp.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\IMUTracking2.dir\Sensors\Gyroscope\Gyroscope.cpp.obj -c C:\Users\colli\CLionProjects\IMUTracking2\Sensors\Gyroscope\Gyroscope.cpp
+
+CMakeFiles/IMUTracking2.dir/Sensors/Gyroscope/Gyroscope.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/IMUTracking2.dir/Sensors/Gyroscope/Gyroscope.cpp.i"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\colli\CLionProjects\IMUTracking2\Sensors\Gyroscope\Gyroscope.cpp > CMakeFiles\IMUTracking2.dir\Sensors\Gyroscope\Gyroscope.cpp.i
+
+CMakeFiles/IMUTracking2.dir/Sensors/Gyroscope/Gyroscope.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/IMUTracking2.dir/Sensors/Gyroscope/Gyroscope.cpp.s"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\colli\CLionProjects\IMUTracking2\Sensors\Gyroscope\Gyroscope.cpp -o CMakeFiles\IMUTracking2.dir\Sensors\Gyroscope\Gyroscope.cpp.s
+
+CMakeFiles/IMUTracking2.dir/Sensors/Gyroscope/SimulatedGyroscope.cpp.obj: CMakeFiles/IMUTracking2.dir/flags.make
+CMakeFiles/IMUTracking2.dir/Sensors/Gyroscope/SimulatedGyroscope.cpp.obj: ../Sensors/Gyroscope/SimulatedGyroscope.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\colli\CLionProjects\IMUTracking2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/IMUTracking2.dir/Sensors/Gyroscope/SimulatedGyroscope.cpp.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\IMUTracking2.dir\Sensors\Gyroscope\SimulatedGyroscope.cpp.obj -c C:\Users\colli\CLionProjects\IMUTracking2\Sensors\Gyroscope\SimulatedGyroscope.cpp
+
+CMakeFiles/IMUTracking2.dir/Sensors/Gyroscope/SimulatedGyroscope.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/IMUTracking2.dir/Sensors/Gyroscope/SimulatedGyroscope.cpp.i"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\colli\CLionProjects\IMUTracking2\Sensors\Gyroscope\SimulatedGyroscope.cpp > CMakeFiles\IMUTracking2.dir\Sensors\Gyroscope\SimulatedGyroscope.cpp.i
+
+CMakeFiles/IMUTracking2.dir/Sensors/Gyroscope/SimulatedGyroscope.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/IMUTracking2.dir/Sensors/Gyroscope/SimulatedGyroscope.cpp.s"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\colli\CLionProjects\IMUTracking2\Sensors\Gyroscope\SimulatedGyroscope.cpp -o CMakeFiles\IMUTracking2.dir\Sensors\Gyroscope\SimulatedGyroscope.cpp.s
 
 # Object files for target IMUTracking2
 IMUTracking2_OBJECTS = \
@@ -136,7 +227,14 @@ IMUTracking2_OBJECTS = \
 "CMakeFiles/IMUTracking2.dir/MathStuff/Vector3.cpp.obj" \
 "CMakeFiles/IMUTracking2.dir/MathStuff/Quaternion.cpp.obj" \
 "CMakeFiles/IMUTracking2.dir/MathStuff/Matrix.cpp.obj" \
-"CMakeFiles/IMUTracking2.dir/Sensors/MagnetometerProcessor.cpp.obj"
+"CMakeFiles/IMUTracking2.dir/DataLoading/CSVLoader.cpp.obj" \
+"CMakeFiles/IMUTracking2.dir/DataLoading/DataLoader.cpp.obj" \
+"CMakeFiles/IMUTracking2.dir/Sensors/Magnetometer/Magnetometer.cpp.obj" \
+"CMakeFiles/IMUTracking2.dir/Sensors/Magnetometer/SimulatedMagnetometer.cpp.obj" \
+"CMakeFiles/IMUTracking2.dir/Sensors/Accelerometer/Accelerometer.cpp.obj" \
+"CMakeFiles/IMUTracking2.dir/Sensors/Accelerometer/SimulatedAccelerometer.cpp.obj" \
+"CMakeFiles/IMUTracking2.dir/Sensors/Gyroscope/Gyroscope.cpp.obj" \
+"CMakeFiles/IMUTracking2.dir/Sensors/Gyroscope/SimulatedGyroscope.cpp.obj"
 
 # External object files for target IMUTracking2
 IMUTracking2_EXTERNAL_OBJECTS =
@@ -145,12 +243,19 @@ IMUTracking2.exe: CMakeFiles/IMUTracking2.dir/main.cpp.obj
 IMUTracking2.exe: CMakeFiles/IMUTracking2.dir/MathStuff/Vector3.cpp.obj
 IMUTracking2.exe: CMakeFiles/IMUTracking2.dir/MathStuff/Quaternion.cpp.obj
 IMUTracking2.exe: CMakeFiles/IMUTracking2.dir/MathStuff/Matrix.cpp.obj
-IMUTracking2.exe: CMakeFiles/IMUTracking2.dir/Sensors/MagnetometerProcessor.cpp.obj
+IMUTracking2.exe: CMakeFiles/IMUTracking2.dir/DataLoading/CSVLoader.cpp.obj
+IMUTracking2.exe: CMakeFiles/IMUTracking2.dir/DataLoading/DataLoader.cpp.obj
+IMUTracking2.exe: CMakeFiles/IMUTracking2.dir/Sensors/Magnetometer/Magnetometer.cpp.obj
+IMUTracking2.exe: CMakeFiles/IMUTracking2.dir/Sensors/Magnetometer/SimulatedMagnetometer.cpp.obj
+IMUTracking2.exe: CMakeFiles/IMUTracking2.dir/Sensors/Accelerometer/Accelerometer.cpp.obj
+IMUTracking2.exe: CMakeFiles/IMUTracking2.dir/Sensors/Accelerometer/SimulatedAccelerometer.cpp.obj
+IMUTracking2.exe: CMakeFiles/IMUTracking2.dir/Sensors/Gyroscope/Gyroscope.cpp.obj
+IMUTracking2.exe: CMakeFiles/IMUTracking2.dir/Sensors/Gyroscope/SimulatedGyroscope.cpp.obj
 IMUTracking2.exe: CMakeFiles/IMUTracking2.dir/build.make
 IMUTracking2.exe: CMakeFiles/IMUTracking2.dir/linklibs.rsp
 IMUTracking2.exe: CMakeFiles/IMUTracking2.dir/objects1.rsp
 IMUTracking2.exe: CMakeFiles/IMUTracking2.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Collin\CLionProjects\IMUTracking2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable IMUTracking2.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\colli\CLionProjects\IMUTracking2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Linking CXX executable IMUTracking2.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\IMUTracking2.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -162,6 +267,6 @@ CMakeFiles/IMUTracking2.dir/clean:
 .PHONY : CMakeFiles/IMUTracking2.dir/clean
 
 CMakeFiles/IMUTracking2.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\Collin\CLionProjects\IMUTracking2 C:\Users\Collin\CLionProjects\IMUTracking2 C:\Users\Collin\CLionProjects\IMUTracking2\cmake-build-debug C:\Users\Collin\CLionProjects\IMUTracking2\cmake-build-debug C:\Users\Collin\CLionProjects\IMUTracking2\cmake-build-debug\CMakeFiles\IMUTracking2.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\colli\CLionProjects\IMUTracking2 C:\Users\colli\CLionProjects\IMUTracking2 C:\Users\colli\CLionProjects\IMUTracking2\cmake-build-debug C:\Users\colli\CLionProjects\IMUTracking2\cmake-build-debug C:\Users\colli\CLionProjects\IMUTracking2\cmake-build-debug\CMakeFiles\IMUTracking2.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/IMUTracking2.dir/depend
 

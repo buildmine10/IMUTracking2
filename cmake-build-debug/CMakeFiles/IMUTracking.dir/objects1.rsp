@@ -1,0 +1,1 @@
+CMakeFiles/IMUTracking.dir/main.cpp.obj CMakeFiles/IMUTracking.dir/Math/Vector3.cpp.obj CMakeFiles/IMUTracking.dir/Math/Quaternion.cpp.obj CMakeFiles/IMUTracking.dir/DataLoader.cpp.obj CMakeFiles/IMUTracking.dir/Tracking/GyroTracker.cpp.obj CMakeFiles/IMUTracking.dir/Tracking/InertialTracker.cpp.obj CMakeFiles/IMUTracking.dir/Tracking/AbsoluteOrientationTracker.cpp.obj

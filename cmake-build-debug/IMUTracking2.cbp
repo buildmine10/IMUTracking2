@@ -8,108 +8,148 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="C:/Users/Collin/CLionProjects/IMUTracking2/cmake-build-debug"/>
+				<Option working_dir="C:/Users/colli/CLionProjects/IMUTracking2/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/ProgramData/chocolatey/lib/mingw/tools/install/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Collin/CLionProjects/IMUTracking2/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="C:/ProgramData/chocolatey/lib/mingw/tools/install/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Collin/CLionProjects/IMUTracking2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/ProgramData/chocolatey/lib/mingw/tools/install/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Collin/CLionProjects/IMUTracking2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/ProgramData/chocolatey/lib/mingw/tools/install/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Collin/CLionProjects/IMUTracking2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/colli/CLionProjects/IMUTracking2/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/colli/CLionProjects/IMUTracking2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/colli/CLionProjects/IMUTracking2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/colli/CLionProjects/IMUTracking2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="IMUTracking2">
-				<Option output="C:/Users/Collin/CLionProjects/IMUTracking2/cmake-build-debug/IMUTracking2.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/Collin/CLionProjects/IMUTracking2/cmake-build-debug"/>
+				<Option output="C:/Users/colli/CLionProjects/IMUTracking2/cmake-build-debug/IMUTracking2.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/colli/CLionProjects/IMUTracking2/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="c:\programdata\chocolatey\lib\mingw\tools\install\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/9.4.0/../../../../include/c++/9.4.0"/>
-					<Add directory="c:\programdata\chocolatey\lib\mingw\tools\install\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/9.4.0/../../../../include/c++/9.4.0/x86_64-w64-mingw32"/>
-					<Add directory="c:\programdata\chocolatey\lib\mingw\tools\install\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/9.4.0/../../../../include/c++/9.4.0/backward"/>
-					<Add directory="c:\programdata\chocolatey\lib\mingw\tools\install\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/9.4.0/include"/>
-					<Add directory="c:\programdata\chocolatey\lib\mingw\tools\install\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/9.4.0/../../../../include"/>
-					<Add directory="c:\programdata\chocolatey\lib\mingw\tools\install\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/9.4.0/include-fixed"/>
-					<Add directory="c:\programdata\chocolatey\lib\mingw\tools\install\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/9.4.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/ProgramData/chocolatey/lib/mingw/tools/install/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Collin/CLionProjects/IMUTracking2/cmake-build-debug/Makefile&quot;  VERBOSE=1 IMUTracking2"/>
-					<CompileFile command="C:/ProgramData/chocolatey/lib/mingw/tools/install/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Collin/CLionProjects/IMUTracking2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/ProgramData/chocolatey/lib/mingw/tools/install/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Collin/CLionProjects/IMUTracking2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/ProgramData/chocolatey/lib/mingw/tools/install/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Collin/CLionProjects/IMUTracking2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/colli/CLionProjects/IMUTracking2/cmake-build-debug/Makefile&quot;  VERBOSE=1 IMUTracking2"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/colli/CLionProjects/IMUTracking2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/colli/CLionProjects/IMUTracking2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/colli/CLionProjects/IMUTracking2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="IMUTracking2/fast">
-				<Option output="C:/Users/Collin/CLionProjects/IMUTracking2/cmake-build-debug/IMUTracking2.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/Collin/CLionProjects/IMUTracking2/cmake-build-debug"/>
+				<Option output="C:/Users/colli/CLionProjects/IMUTracking2/cmake-build-debug/IMUTracking2.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/colli/CLionProjects/IMUTracking2/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="c:\programdata\chocolatey\lib\mingw\tools\install\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/9.4.0/../../../../include/c++/9.4.0"/>
-					<Add directory="c:\programdata\chocolatey\lib\mingw\tools\install\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/9.4.0/../../../../include/c++/9.4.0/x86_64-w64-mingw32"/>
-					<Add directory="c:\programdata\chocolatey\lib\mingw\tools\install\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/9.4.0/../../../../include/c++/9.4.0/backward"/>
-					<Add directory="c:\programdata\chocolatey\lib\mingw\tools\install\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/9.4.0/include"/>
-					<Add directory="c:\programdata\chocolatey\lib\mingw\tools\install\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/9.4.0/../../../../include"/>
-					<Add directory="c:\programdata\chocolatey\lib\mingw\tools\install\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/9.4.0/include-fixed"/>
-					<Add directory="c:\programdata\chocolatey\lib\mingw\tools\install\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/9.4.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/ProgramData/chocolatey/lib/mingw/tools/install/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Collin/CLionProjects/IMUTracking2/cmake-build-debug/Makefile&quot;  VERBOSE=1 IMUTracking2/fast"/>
-					<CompileFile command="C:/ProgramData/chocolatey/lib/mingw/tools/install/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Collin/CLionProjects/IMUTracking2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/ProgramData/chocolatey/lib/mingw/tools/install/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Collin/CLionProjects/IMUTracking2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/ProgramData/chocolatey/lib/mingw/tools/install/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Collin/CLionProjects/IMUTracking2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/colli/CLionProjects/IMUTracking2/cmake-build-debug/Makefile&quot;  VERBOSE=1 IMUTracking2/fast"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/colli/CLionProjects/IMUTracking2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/colli/CLionProjects/IMUTracking2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/colli/CLionProjects/IMUTracking2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="C:/Users/Collin/CLionProjects/IMUTracking2/cmake-build-debug"/>
+				<Option working_dir="C:/Users/colli/CLionProjects/IMUTracking2/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/ProgramData/chocolatey/lib/mingw/tools/install/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Collin/CLionProjects/IMUTracking2/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="C:/ProgramData/chocolatey/lib/mingw/tools/install/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Collin/CLionProjects/IMUTracking2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/ProgramData/chocolatey/lib/mingw/tools/install/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Collin/CLionProjects/IMUTracking2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/ProgramData/chocolatey/lib/mingw/tools/install/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Collin/CLionProjects/IMUTracking2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/colli/CLionProjects/IMUTracking2/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/colli/CLionProjects/IMUTracking2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/colli/CLionProjects/IMUTracking2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/colli/CLionProjects/IMUTracking2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="C:/Users/Collin/CLionProjects/IMUTracking2/cmake-build-debug"/>
+				<Option working_dir="C:/Users/colli/CLionProjects/IMUTracking2/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/ProgramData/chocolatey/lib/mingw/tools/install/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Collin/CLionProjects/IMUTracking2/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="C:/ProgramData/chocolatey/lib/mingw/tools/install/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Collin/CLionProjects/IMUTracking2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/ProgramData/chocolatey/lib/mingw/tools/install/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Collin/CLionProjects/IMUTracking2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/ProgramData/chocolatey/lib/mingw/tools/install/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Collin/CLionProjects/IMUTracking2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/colli/CLionProjects/IMUTracking2/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/colli/CLionProjects/IMUTracking2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/colli/CLionProjects/IMUTracking2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/colli/CLionProjects/IMUTracking2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/Collin/CLionProjects/IMUTracking2/MathStuff/Matrix.cpp">
+		<Unit filename="C:/Users/colli/CLionProjects/IMUTracking2/DataLoading/CSVLoader.cpp">
 			<Option target="IMUTracking2"/>
 		</Unit>
-		<Unit filename="C:/Users/Collin/CLionProjects/IMUTracking2/MathStuff/Matrix.h">
+		<Unit filename="C:/Users/colli/CLionProjects/IMUTracking2/DataLoading/CSVLoader.h">
 			<Option target="IMUTracking2"/>
 		</Unit>
-		<Unit filename="C:/Users/Collin/CLionProjects/IMUTracking2/MathStuff/Quaternion.cpp">
+		<Unit filename="C:/Users/colli/CLionProjects/IMUTracking2/DataLoading/DataLoader.cpp">
 			<Option target="IMUTracking2"/>
 		</Unit>
-		<Unit filename="C:/Users/Collin/CLionProjects/IMUTracking2/MathStuff/Quaternion.h">
+		<Unit filename="C:/Users/colli/CLionProjects/IMUTracking2/DataLoading/DataLoader.h">
 			<Option target="IMUTracking2"/>
 		</Unit>
-		<Unit filename="C:/Users/Collin/CLionProjects/IMUTracking2/MathStuff/Vector3.cpp">
+		<Unit filename="C:/Users/colli/CLionProjects/IMUTracking2/MathStuff/Matrix.cpp">
 			<Option target="IMUTracking2"/>
 		</Unit>
-		<Unit filename="C:/Users/Collin/CLionProjects/IMUTracking2/MathStuff/Vector3.h">
+		<Unit filename="C:/Users/colli/CLionProjects/IMUTracking2/MathStuff/Matrix.h">
 			<Option target="IMUTracking2"/>
 		</Unit>
-		<Unit filename="C:/Users/Collin/CLionProjects/IMUTracking2/Sensors/MagnetometerProcessor.cpp">
+		<Unit filename="C:/Users/colli/CLionProjects/IMUTracking2/MathStuff/Quaternion.cpp">
 			<Option target="IMUTracking2"/>
 		</Unit>
-		<Unit filename="C:/Users/Collin/CLionProjects/IMUTracking2/Sensors/MagnetometerProcessor.h">
+		<Unit filename="C:/Users/colli/CLionProjects/IMUTracking2/MathStuff/Quaternion.h">
 			<Option target="IMUTracking2"/>
 		</Unit>
-		<Unit filename="C:/Users/Collin/CLionProjects/IMUTracking2/main.cpp">
+		<Unit filename="C:/Users/colli/CLionProjects/IMUTracking2/MathStuff/Vector3.cpp">
 			<Option target="IMUTracking2"/>
 		</Unit>
-		<Unit filename="C:/Users/Collin/CLionProjects/IMUTracking2/CMakeLists.txt">
+		<Unit filename="C:/Users/colli/CLionProjects/IMUTracking2/MathStuff/Vector3.h">
+			<Option target="IMUTracking2"/>
+		</Unit>
+		<Unit filename="C:/Users/colli/CLionProjects/IMUTracking2/Sensors/Accelerometer/Accelerometer.cpp">
+			<Option target="IMUTracking2"/>
+		</Unit>
+		<Unit filename="C:/Users/colli/CLionProjects/IMUTracking2/Sensors/Accelerometer/Accelerometer.h">
+			<Option target="IMUTracking2"/>
+		</Unit>
+		<Unit filename="C:/Users/colli/CLionProjects/IMUTracking2/Sensors/Accelerometer/SimulatedAccelerometer.cpp">
+			<Option target="IMUTracking2"/>
+		</Unit>
+		<Unit filename="C:/Users/colli/CLionProjects/IMUTracking2/Sensors/Accelerometer/SimulatedAccelerometer.h">
+			<Option target="IMUTracking2"/>
+		</Unit>
+		<Unit filename="C:/Users/colli/CLionProjects/IMUTracking2/Sensors/Gyroscope/Gyroscope.cpp">
+			<Option target="IMUTracking2"/>
+		</Unit>
+		<Unit filename="C:/Users/colli/CLionProjects/IMUTracking2/Sensors/Gyroscope/Gyroscope.h">
+			<Option target="IMUTracking2"/>
+		</Unit>
+		<Unit filename="C:/Users/colli/CLionProjects/IMUTracking2/Sensors/Gyroscope/SimulatedGyroscope.cpp">
+			<Option target="IMUTracking2"/>
+		</Unit>
+		<Unit filename="C:/Users/colli/CLionProjects/IMUTracking2/Sensors/Gyroscope/SimulatedGyroscope.h">
+			<Option target="IMUTracking2"/>
+		</Unit>
+		<Unit filename="C:/Users/colli/CLionProjects/IMUTracking2/Sensors/Magnetometer/Magnetometer.cpp">
+			<Option target="IMUTracking2"/>
+		</Unit>
+		<Unit filename="C:/Users/colli/CLionProjects/IMUTracking2/Sensors/Magnetometer/Magnetometer.h">
+			<Option target="IMUTracking2"/>
+		</Unit>
+		<Unit filename="C:/Users/colli/CLionProjects/IMUTracking2/Sensors/Magnetometer/SimulatedMagnetometer.cpp">
+			<Option target="IMUTracking2"/>
+		</Unit>
+		<Unit filename="C:/Users/colli/CLionProjects/IMUTracking2/Sensors/Magnetometer/SimulatedMagnetometer.h">
+			<Option target="IMUTracking2"/>
+		</Unit>
+		<Unit filename="C:/Users/colli/CLionProjects/IMUTracking2/main.cpp">
+			<Option target="IMUTracking2"/>
+		</Unit>
+		<Unit filename="C:/Users/colli/CLionProjects/IMUTracking2/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

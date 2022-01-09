@@ -38,6 +38,9 @@ public:
     Vector3& operator*=(const double& value);
     Vector3& operator/=(const double& value);
 
+    Vector3 multiplyElementWise(const Vector3& other) const;
+    bool lessThanElementWise(const Vector3& other) const;//true is all elements are less
+
 
     Matrix operator*(const Matrix& matrix) const;//row vector by matrix (result is a horizontal matrix)
 

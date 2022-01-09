@@ -47,19 +47,19 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion 2021.2.2\bin\cmake\win\bin\cmake.exe"
+CMAKE_COMMAND = "C:\Program Files (x86)\JetBrains\CLion 2021.2.2\bin\cmake\win\bin\cmake.exe"
 
 # The command to remove a file.
-RM = "C:\Program Files\JetBrains\CLion 2021.2.2\bin\cmake\win\bin\cmake.exe" -E rm -f
+RM = "C:\Program Files (x86)\JetBrains\CLion 2021.2.2\bin\cmake\win\bin\cmake.exe" -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\Collin\CLionProjects\IMUTracking2
+CMAKE_SOURCE_DIR = C:\Users\colli\CLionProjects\IMUTracking2
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\Collin\CLionProjects\IMUTracking2\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\colli\CLionProjects\IMUTracking2\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -67,7 +67,7 @@ CMAKE_BINARY_DIR = C:\Users\Collin\CLionProjects\IMUTracking2\cmake-build-debug
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	"C:\Program Files\JetBrains\CLion 2021.2.2\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available."
+	"C:\Program Files (x86)\JetBrains\CLion 2021.2.2\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available."
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -77,7 +77,7 @@ edit_cache/fast: edit_cache
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	"C:\Program Files\JetBrains\CLion 2021.2.2\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	"C:\Program Files (x86)\JetBrains\CLion 2021.2.2\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -86,9 +86,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Collin\CLionProjects\IMUTracking2\cmake-build-debug\CMakeFiles C:\Users\Collin\CLionProjects\IMUTracking2\cmake-build-debug\\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\colli\CLionProjects\IMUTracking2\cmake-build-debug\CMakeFiles C:\Users\colli\CLionProjects\IMUTracking2\cmake-build-debug\\CMakeFiles\progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Collin\CLionProjects\IMUTracking2\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\colli\CLionProjects\IMUTracking2\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -127,6 +127,54 @@ IMUTracking2: cmake_check_build_system
 IMUTracking2/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\IMUTracking2.dir\build.make CMakeFiles/IMUTracking2.dir/build
 .PHONY : IMUTracking2/fast
+
+DataLoading/CSVLoader.obj: DataLoading/CSVLoader.cpp.obj
+.PHONY : DataLoading/CSVLoader.obj
+
+# target to build an object file
+DataLoading/CSVLoader.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\IMUTracking2.dir\build.make CMakeFiles/IMUTracking2.dir/DataLoading/CSVLoader.cpp.obj
+.PHONY : DataLoading/CSVLoader.cpp.obj
+
+DataLoading/CSVLoader.i: DataLoading/CSVLoader.cpp.i
+.PHONY : DataLoading/CSVLoader.i
+
+# target to preprocess a source file
+DataLoading/CSVLoader.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\IMUTracking2.dir\build.make CMakeFiles/IMUTracking2.dir/DataLoading/CSVLoader.cpp.i
+.PHONY : DataLoading/CSVLoader.cpp.i
+
+DataLoading/CSVLoader.s: DataLoading/CSVLoader.cpp.s
+.PHONY : DataLoading/CSVLoader.s
+
+# target to generate assembly for a file
+DataLoading/CSVLoader.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\IMUTracking2.dir\build.make CMakeFiles/IMUTracking2.dir/DataLoading/CSVLoader.cpp.s
+.PHONY : DataLoading/CSVLoader.cpp.s
+
+DataLoading/DataLoader.obj: DataLoading/DataLoader.cpp.obj
+.PHONY : DataLoading/DataLoader.obj
+
+# target to build an object file
+DataLoading/DataLoader.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\IMUTracking2.dir\build.make CMakeFiles/IMUTracking2.dir/DataLoading/DataLoader.cpp.obj
+.PHONY : DataLoading/DataLoader.cpp.obj
+
+DataLoading/DataLoader.i: DataLoading/DataLoader.cpp.i
+.PHONY : DataLoading/DataLoader.i
+
+# target to preprocess a source file
+DataLoading/DataLoader.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\IMUTracking2.dir\build.make CMakeFiles/IMUTracking2.dir/DataLoading/DataLoader.cpp.i
+.PHONY : DataLoading/DataLoader.cpp.i
+
+DataLoading/DataLoader.s: DataLoading/DataLoader.cpp.s
+.PHONY : DataLoading/DataLoader.s
+
+# target to generate assembly for a file
+DataLoading/DataLoader.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\IMUTracking2.dir\build.make CMakeFiles/IMUTracking2.dir/DataLoading/DataLoader.cpp.s
+.PHONY : DataLoading/DataLoader.cpp.s
 
 MathStuff/Matrix.obj: MathStuff/Matrix.cpp.obj
 .PHONY : MathStuff/Matrix.obj
@@ -200,29 +248,149 @@ MathStuff/Vector3.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\IMUTracking2.dir\build.make CMakeFiles/IMUTracking2.dir/MathStuff/Vector3.cpp.s
 .PHONY : MathStuff/Vector3.cpp.s
 
-Sensors/MagnetometerProcessor.obj: Sensors/MagnetometerProcessor.cpp.obj
-.PHONY : Sensors/MagnetometerProcessor.obj
+Sensors/Accelerometer/Accelerometer.obj: Sensors/Accelerometer/Accelerometer.cpp.obj
+.PHONY : Sensors/Accelerometer/Accelerometer.obj
 
 # target to build an object file
-Sensors/MagnetometerProcessor.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\IMUTracking2.dir\build.make CMakeFiles/IMUTracking2.dir/Sensors/MagnetometerProcessor.cpp.obj
-.PHONY : Sensors/MagnetometerProcessor.cpp.obj
+Sensors/Accelerometer/Accelerometer.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\IMUTracking2.dir\build.make CMakeFiles/IMUTracking2.dir/Sensors/Accelerometer/Accelerometer.cpp.obj
+.PHONY : Sensors/Accelerometer/Accelerometer.cpp.obj
 
-Sensors/MagnetometerProcessor.i: Sensors/MagnetometerProcessor.cpp.i
-.PHONY : Sensors/MagnetometerProcessor.i
+Sensors/Accelerometer/Accelerometer.i: Sensors/Accelerometer/Accelerometer.cpp.i
+.PHONY : Sensors/Accelerometer/Accelerometer.i
 
 # target to preprocess a source file
-Sensors/MagnetometerProcessor.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\IMUTracking2.dir\build.make CMakeFiles/IMUTracking2.dir/Sensors/MagnetometerProcessor.cpp.i
-.PHONY : Sensors/MagnetometerProcessor.cpp.i
+Sensors/Accelerometer/Accelerometer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\IMUTracking2.dir\build.make CMakeFiles/IMUTracking2.dir/Sensors/Accelerometer/Accelerometer.cpp.i
+.PHONY : Sensors/Accelerometer/Accelerometer.cpp.i
 
-Sensors/MagnetometerProcessor.s: Sensors/MagnetometerProcessor.cpp.s
-.PHONY : Sensors/MagnetometerProcessor.s
+Sensors/Accelerometer/Accelerometer.s: Sensors/Accelerometer/Accelerometer.cpp.s
+.PHONY : Sensors/Accelerometer/Accelerometer.s
 
 # target to generate assembly for a file
-Sensors/MagnetometerProcessor.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\IMUTracking2.dir\build.make CMakeFiles/IMUTracking2.dir/Sensors/MagnetometerProcessor.cpp.s
-.PHONY : Sensors/MagnetometerProcessor.cpp.s
+Sensors/Accelerometer/Accelerometer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\IMUTracking2.dir\build.make CMakeFiles/IMUTracking2.dir/Sensors/Accelerometer/Accelerometer.cpp.s
+.PHONY : Sensors/Accelerometer/Accelerometer.cpp.s
+
+Sensors/Accelerometer/SimulatedAccelerometer.obj: Sensors/Accelerometer/SimulatedAccelerometer.cpp.obj
+.PHONY : Sensors/Accelerometer/SimulatedAccelerometer.obj
+
+# target to build an object file
+Sensors/Accelerometer/SimulatedAccelerometer.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\IMUTracking2.dir\build.make CMakeFiles/IMUTracking2.dir/Sensors/Accelerometer/SimulatedAccelerometer.cpp.obj
+.PHONY : Sensors/Accelerometer/SimulatedAccelerometer.cpp.obj
+
+Sensors/Accelerometer/SimulatedAccelerometer.i: Sensors/Accelerometer/SimulatedAccelerometer.cpp.i
+.PHONY : Sensors/Accelerometer/SimulatedAccelerometer.i
+
+# target to preprocess a source file
+Sensors/Accelerometer/SimulatedAccelerometer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\IMUTracking2.dir\build.make CMakeFiles/IMUTracking2.dir/Sensors/Accelerometer/SimulatedAccelerometer.cpp.i
+.PHONY : Sensors/Accelerometer/SimulatedAccelerometer.cpp.i
+
+Sensors/Accelerometer/SimulatedAccelerometer.s: Sensors/Accelerometer/SimulatedAccelerometer.cpp.s
+.PHONY : Sensors/Accelerometer/SimulatedAccelerometer.s
+
+# target to generate assembly for a file
+Sensors/Accelerometer/SimulatedAccelerometer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\IMUTracking2.dir\build.make CMakeFiles/IMUTracking2.dir/Sensors/Accelerometer/SimulatedAccelerometer.cpp.s
+.PHONY : Sensors/Accelerometer/SimulatedAccelerometer.cpp.s
+
+Sensors/Gyroscope/Gyroscope.obj: Sensors/Gyroscope/Gyroscope.cpp.obj
+.PHONY : Sensors/Gyroscope/Gyroscope.obj
+
+# target to build an object file
+Sensors/Gyroscope/Gyroscope.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\IMUTracking2.dir\build.make CMakeFiles/IMUTracking2.dir/Sensors/Gyroscope/Gyroscope.cpp.obj
+.PHONY : Sensors/Gyroscope/Gyroscope.cpp.obj
+
+Sensors/Gyroscope/Gyroscope.i: Sensors/Gyroscope/Gyroscope.cpp.i
+.PHONY : Sensors/Gyroscope/Gyroscope.i
+
+# target to preprocess a source file
+Sensors/Gyroscope/Gyroscope.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\IMUTracking2.dir\build.make CMakeFiles/IMUTracking2.dir/Sensors/Gyroscope/Gyroscope.cpp.i
+.PHONY : Sensors/Gyroscope/Gyroscope.cpp.i
+
+Sensors/Gyroscope/Gyroscope.s: Sensors/Gyroscope/Gyroscope.cpp.s
+.PHONY : Sensors/Gyroscope/Gyroscope.s
+
+# target to generate assembly for a file
+Sensors/Gyroscope/Gyroscope.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\IMUTracking2.dir\build.make CMakeFiles/IMUTracking2.dir/Sensors/Gyroscope/Gyroscope.cpp.s
+.PHONY : Sensors/Gyroscope/Gyroscope.cpp.s
+
+Sensors/Gyroscope/SimulatedGyroscope.obj: Sensors/Gyroscope/SimulatedGyroscope.cpp.obj
+.PHONY : Sensors/Gyroscope/SimulatedGyroscope.obj
+
+# target to build an object file
+Sensors/Gyroscope/SimulatedGyroscope.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\IMUTracking2.dir\build.make CMakeFiles/IMUTracking2.dir/Sensors/Gyroscope/SimulatedGyroscope.cpp.obj
+.PHONY : Sensors/Gyroscope/SimulatedGyroscope.cpp.obj
+
+Sensors/Gyroscope/SimulatedGyroscope.i: Sensors/Gyroscope/SimulatedGyroscope.cpp.i
+.PHONY : Sensors/Gyroscope/SimulatedGyroscope.i
+
+# target to preprocess a source file
+Sensors/Gyroscope/SimulatedGyroscope.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\IMUTracking2.dir\build.make CMakeFiles/IMUTracking2.dir/Sensors/Gyroscope/SimulatedGyroscope.cpp.i
+.PHONY : Sensors/Gyroscope/SimulatedGyroscope.cpp.i
+
+Sensors/Gyroscope/SimulatedGyroscope.s: Sensors/Gyroscope/SimulatedGyroscope.cpp.s
+.PHONY : Sensors/Gyroscope/SimulatedGyroscope.s
+
+# target to generate assembly for a file
+Sensors/Gyroscope/SimulatedGyroscope.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\IMUTracking2.dir\build.make CMakeFiles/IMUTracking2.dir/Sensors/Gyroscope/SimulatedGyroscope.cpp.s
+.PHONY : Sensors/Gyroscope/SimulatedGyroscope.cpp.s
+
+Sensors/Magnetometer/Magnetometer.obj: Sensors/Magnetometer/Magnetometer.cpp.obj
+.PHONY : Sensors/Magnetometer/Magnetometer.obj
+
+# target to build an object file
+Sensors/Magnetometer/Magnetometer.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\IMUTracking2.dir\build.make CMakeFiles/IMUTracking2.dir/Sensors/Magnetometer/Magnetometer.cpp.obj
+.PHONY : Sensors/Magnetometer/Magnetometer.cpp.obj
+
+Sensors/Magnetometer/Magnetometer.i: Sensors/Magnetometer/Magnetometer.cpp.i
+.PHONY : Sensors/Magnetometer/Magnetometer.i
+
+# target to preprocess a source file
+Sensors/Magnetometer/Magnetometer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\IMUTracking2.dir\build.make CMakeFiles/IMUTracking2.dir/Sensors/Magnetometer/Magnetometer.cpp.i
+.PHONY : Sensors/Magnetometer/Magnetometer.cpp.i
+
+Sensors/Magnetometer/Magnetometer.s: Sensors/Magnetometer/Magnetometer.cpp.s
+.PHONY : Sensors/Magnetometer/Magnetometer.s
+
+# target to generate assembly for a file
+Sensors/Magnetometer/Magnetometer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\IMUTracking2.dir\build.make CMakeFiles/IMUTracking2.dir/Sensors/Magnetometer/Magnetometer.cpp.s
+.PHONY : Sensors/Magnetometer/Magnetometer.cpp.s
+
+Sensors/Magnetometer/SimulatedMagnetometer.obj: Sensors/Magnetometer/SimulatedMagnetometer.cpp.obj
+.PHONY : Sensors/Magnetometer/SimulatedMagnetometer.obj
+
+# target to build an object file
+Sensors/Magnetometer/SimulatedMagnetometer.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\IMUTracking2.dir\build.make CMakeFiles/IMUTracking2.dir/Sensors/Magnetometer/SimulatedMagnetometer.cpp.obj
+.PHONY : Sensors/Magnetometer/SimulatedMagnetometer.cpp.obj
+
+Sensors/Magnetometer/SimulatedMagnetometer.i: Sensors/Magnetometer/SimulatedMagnetometer.cpp.i
+.PHONY : Sensors/Magnetometer/SimulatedMagnetometer.i
+
+# target to preprocess a source file
+Sensors/Magnetometer/SimulatedMagnetometer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\IMUTracking2.dir\build.make CMakeFiles/IMUTracking2.dir/Sensors/Magnetometer/SimulatedMagnetometer.cpp.i
+.PHONY : Sensors/Magnetometer/SimulatedMagnetometer.cpp.i
+
+Sensors/Magnetometer/SimulatedMagnetometer.s: Sensors/Magnetometer/SimulatedMagnetometer.cpp.s
+.PHONY : Sensors/Magnetometer/SimulatedMagnetometer.s
+
+# target to generate assembly for a file
+Sensors/Magnetometer/SimulatedMagnetometer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\IMUTracking2.dir\build.make CMakeFiles/IMUTracking2.dir/Sensors/Magnetometer/SimulatedMagnetometer.cpp.s
+.PHONY : Sensors/Magnetometer/SimulatedMagnetometer.cpp.s
 
 main.obj: main.cpp.obj
 .PHONY : main.obj
@@ -257,6 +425,12 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... IMUTracking2
+	@echo ... DataLoading/CSVLoader.obj
+	@echo ... DataLoading/CSVLoader.i
+	@echo ... DataLoading/CSVLoader.s
+	@echo ... DataLoading/DataLoader.obj
+	@echo ... DataLoading/DataLoader.i
+	@echo ... DataLoading/DataLoader.s
 	@echo ... MathStuff/Matrix.obj
 	@echo ... MathStuff/Matrix.i
 	@echo ... MathStuff/Matrix.s
@@ -266,9 +440,24 @@ help:
 	@echo ... MathStuff/Vector3.obj
 	@echo ... MathStuff/Vector3.i
 	@echo ... MathStuff/Vector3.s
-	@echo ... Sensors/MagnetometerProcessor.obj
-	@echo ... Sensors/MagnetometerProcessor.i
-	@echo ... Sensors/MagnetometerProcessor.s
+	@echo ... Sensors/Accelerometer/Accelerometer.obj
+	@echo ... Sensors/Accelerometer/Accelerometer.i
+	@echo ... Sensors/Accelerometer/Accelerometer.s
+	@echo ... Sensors/Accelerometer/SimulatedAccelerometer.obj
+	@echo ... Sensors/Accelerometer/SimulatedAccelerometer.i
+	@echo ... Sensors/Accelerometer/SimulatedAccelerometer.s
+	@echo ... Sensors/Gyroscope/Gyroscope.obj
+	@echo ... Sensors/Gyroscope/Gyroscope.i
+	@echo ... Sensors/Gyroscope/Gyroscope.s
+	@echo ... Sensors/Gyroscope/SimulatedGyroscope.obj
+	@echo ... Sensors/Gyroscope/SimulatedGyroscope.i
+	@echo ... Sensors/Gyroscope/SimulatedGyroscope.s
+	@echo ... Sensors/Magnetometer/Magnetometer.obj
+	@echo ... Sensors/Magnetometer/Magnetometer.i
+	@echo ... Sensors/Magnetometer/Magnetometer.s
+	@echo ... Sensors/Magnetometer/SimulatedMagnetometer.obj
+	@echo ... Sensors/Magnetometer/SimulatedMagnetometer.i
+	@echo ... Sensors/Magnetometer/SimulatedMagnetometer.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
