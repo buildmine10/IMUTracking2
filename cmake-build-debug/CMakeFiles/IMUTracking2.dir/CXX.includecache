@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/Collin/CLionProjects/IMUTracking2/MathStuff/Matrix.h
+vector
+-
+Vector3.h
+C:/Users/Collin/CLionProjects/IMUTracking2/MathStuff/Vector3.h
+
+C:/Users/Collin/CLionProjects/IMUTracking2/MathStuff/Vector3.h
+Matrix.h
+C:/Users/Collin/CLionProjects/IMUTracking2/MathStuff/Matrix.h
+
+C:/Users/Collin/CLionProjects/IMUTracking2/Sensors/MagnetometerProcessor.cpp
+MagnetometerProcessor.h
+C:/Users/Collin/CLionProjects/IMUTracking2/Sensors/MagnetometerProcessor.h
+iostream
+-
+iomanip
+-
+
+C:/Users/Collin/CLionProjects/IMUTracking2/Sensors/MagnetometerProcessor.h
+deque
+-
+chrono
+-
+../MathStuff/Vector3.h
+C:/Users/Collin/CLionProjects/IMUTracking2/MathStuff/Vector3.h
+
